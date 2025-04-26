@@ -1,0 +1,42 @@
+* {
+    text-align: center;
+}
+
+#mainTopic {
+    color: blue;
+}
+
+.h {
+    font-family: Georgia, 'Times New Roman', Times, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.para {
+    color: white;
+    background-color: cornflowerblue;
+}
+
+div button {
+    color: azure;
+    background-color: purple;
+}
+
+button:hover {
+    color: blue;
+    background-color: yellow;
+}
+
+p:nth-of-type(2n) {
+    color: black;
+}
+
+h1::first-letter {
+    color: red;
+}
+
+#yes:checked+label {
+    color: darkgreen;
+}
+
+button:active {
+    background-color: pink;
+}
