@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container {
+            height: 400px;
+            width: 400px;
+            border: 2px solid rgb(85, 106, 199);
+            border-radius: 15px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            /* align-content: space-evenly; */
+        }
+        
+        .box {
+            height: 100px;
+            width: 100px;
+            background-color: grey;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 50px;
+            border: 2px solid black;
+        }
+        
+        #navbar {
+            height: 50px;
+            width: 900px;
+            background-color: pink;
+            border: 2px solid skyblue;
+            border-radius: 10px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        
+        .option {
+            height: 50%;
+            width: 80px;
+            margin-left: 10px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div class="box">A</div>
+        <div class="box">B</div>
+        <div class="box">C</div>
+        <div class="box">D</div>
+        <div class="box">E</div>
+        <div class="box">F</div>
+        <div class="box">G</div>
+        <div class="box">H</div>
+        <div class="box">I</div>
+    </div>
+    <hr>
+    <!-- simple navbar -->
+    <div id="navbar">
+        <div class="option">Logo</div>
+        <div class="option">Home</div>
+        <div class="option">About</div>
+        <div class="option">contact</div>
+    </div>
+
+</body>
+
+</html>
