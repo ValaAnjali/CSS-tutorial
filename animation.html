@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css level 5</title>
+    <style>
+        .box {
+            height: 100px;
+            width: 300px;
+            text-align: center;
+            background-color: rgb(159, 214, 122);
+            /* animation-name: fontanimation; */
+            /* animation-name: color; */
+            /* animation-name: width;
+            animation-duration: 3s;
+            animation-timing-function: ease-in;
+            animation-delay: 0;
+            animation-iteration-count: infinite;
+            animation-direction: alternate; */
+            animation: width 5s ease-in-out 1s infinite alternate;
+        }
+        
+        @keyframes fontanimation {
+            from {
+                font-size: 20px
+            }
+            to {
+                font-size: 40px
+            }
+        }
+        /* @keyframes color {
+            from {
+                background-color: paleturquoise;
+            }
+            to {
+                background-color: rgb(95, 151, 177);
+            }
+        } */
+        
+        @keyframes width {
+            0% {
+                width: 10px;
+                background-color: paleturquoise;
+            }
+            50% {
+                width: 400px;
+                background-color: rgb(95, 151, 177);
+                border-radius: 50px;
+            }
+            100% {
+                background-color: rgb(64, 76, 145);
+                border-radius: 50px;
+                width: 500px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Animation</h1>
+    <div class="box">this is a box</div>
+</body>
+
+</html>
