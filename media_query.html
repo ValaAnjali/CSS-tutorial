@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media queries</title>
+    <style>
+        h1 {
+            background-color: yellowgreen;
+            border: 2px solid black;
+        }
+        
+        @media(width:400px) {
+            h1 {
+                background-color: red;
+                color: beige;
+            }
+        }
+        
+        div {
+            height: 100px;
+            width: 100px;
+            background-color: rgb(212, 212, 148);
+        }
+        
+        @media(min-width:700px) {
+            h1 {
+                background-color: blue;
+            }
+        }
+        
+        @media(max-width:200px) {
+            h1 {
+                background-color: cadetblue;
+            }
+        }
+        
+        @media(min-width:200px)and(max-width:300px) {
+            h1 {
+                background-color: darkmagenta;
+            }
+        }
+        
+        @media(orientation:landscape) {
+            h1 {
+                background-color: rgb(25, 53, 43);
+                color: antiquewhite;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Media Queries Demo</h1>
+
+</body>
+
+</html>
